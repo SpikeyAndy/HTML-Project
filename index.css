@@ -59,16 +59,21 @@ h1{
 /* Style for the navigation bar */
 nav {
 	background-color: #202020;
-	height: 80px;
+	height: auto;
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 	padding: 0 20px;
 	position: fixed;
 	z-index: 1;
+	width: 100%;
   }
   
   nav ul {
-	list-style: auto;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
 	margin: 0;
 	padding: 0;
   }
@@ -91,13 +96,11 @@ nav {
   }
   
   .logo {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
-	margin-right: auto;
   }
-  
 
 /* Styling for the Wikipedia pages */
 
