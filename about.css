@@ -1,15 +1,15 @@
 /*basics */
 h1{
-	color:White;
+	color:rgb(69, 69, 69);
 	font-family: 'Courier New', Courier, monospace
  	}
  	h2{
-		 color:White;
+		 color:rgb(33, 33, 33);
 		 font-family: Arial;
 		 font-family: 'Courier New', Courier, monospace
  	}
  	body {
-		 color: White;
+		 color: rgb(49, 49, 49);
 		 background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2023/06/macOS-Sonoma-default-wallpaper-Light.jpg");
 		 background-size: cover;
 		 background-position: center center;
@@ -192,4 +192,8 @@ nav a:hover {
     color: #fff;
     text-decoration: none;
     margin-right: auto;
+}
+
+.form {
+	border-radius: 5px;
 }
