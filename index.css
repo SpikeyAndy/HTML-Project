@@ -12,10 +12,13 @@ h1{
 		 align-items: center;
  	}
  	img{
-		width: 100%;
+		width: auto;
     	border-radius: 10px;
     	margin-bottom: 20px;
-
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
  	}
  	body {
 		 color: White;
@@ -65,7 +68,7 @@ h1{
 	 }
 
 	 nav ul {
-		 list-style: none;
+		 list-style: auto;
 		 margin: 0;
 		 padding: 0;
 	 }
