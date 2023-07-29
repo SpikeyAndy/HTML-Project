@@ -234,14 +234,16 @@ body {
   /* Style the portfolio section with a grid of photos */
   .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 20px;
     margin: 40px 0;
   }
   
   .gallery-grid img {
+    display: block;
     width: 100%;
-    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
   }
   
   /* Style the about section with a photo and some text */
