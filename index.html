@@ -1,170 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Andy's Travel Blog</title>
+	<title>Andy's Random Website</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<style type="text/css">
-	
-	*{
-		padding: 0;
-		margin: 0;
-	}
 	h1{
-       color:White;
-       font-family: 'Courier New', Courier, monospace
-    }
-    h2{
-    	color:White;
-    	font-family: Arial;
-    	font-family: 'Courier New', Courier, monospace
-    }
-    img{
-        width:500px;
-        height:300px;
-		border-radius: 5%;
-    }
-    body {
-    	color: White;
-    	background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2023/06/macOS-Sonoma-default-wallpaper-Light.jpg");
-    	background-size: cover;
-    	background-position: center center;
-    	text-align: center;
-    	font-family: 'Courier New', Courier, monospace;
-	}
-	/* styling for the Wikipedia pages */
+	color:White;
+	font-family: 'Courier New', Courier, monospace
+ 	}
+ 	h2{
+		 color:White;
+		 font-family: Arial;
+		 font-family: 'Courier New', Courier, monospace
+ 	}
+ 	img{
+		 width:500px;
+		 height:300px;
+		 border-radius: 10px;
+ 	}
+ 	body {
+		 color: White;
+		 background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2023/06/macOS-Sonoma-default-wallpaper-Light.jpg");
+		 background-size: cover;
+		 background-position: center center;
+		 text-align: center;
+		 font-family: 'Courier New', Courier, monospace;
+ 	}
+	/* Styling for the footer */
 
-#title {
-	font-size: 28px;
-	font-weight: bold;
-	margin-top: 50px;
-}
+	footer {
+		 padding: 20px;
+		 text-align: center;
+	 }
 
-#title + div {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-top: 20px;
-}
+	 footer p {
+		 margin: 0;
+		 font-size: 14px;
+	 }
 
-#title + div > div {
-	margin-top: 30px;
-}
+	 /* Styling for the main content */
 
-#title + div > div > a {
-	display: block;
-}
+	 main {
+		 padding: 20px;
+	 }
 
-#title + div > div > a > img {
-	display: block;
-	margin: 0 auto;
-}
+	 main h2 {
+		 font-size: 24px;
+		 margin-top: 0;
+	 }
 
-#title + div > div > p {
-	font-size: 24px;
-	font-weight: bold;
-	margin-top: 10px;
-	text-align: center;
-}
+	 main p {
+		 font-size: 18px;
+		 margin-top: 10px;
+	 }
 
-/* Styling for the "To be Added" section */
+	 /* Style for the navigation bar */
+	 nav {
+		 background-color: #202020;
+		 height: 80px;
+		 display: flex;
+		 align-items: center;
+		 padding: 0 20px;
+		 position: fixed;
+		 z-index: 1;
+	 }
 
-div > h2 + br {
-	display: none;
-}
+	 nav ul {
+		 list-style: none;
+		 margin: 0;
+		 padding: 0;
+	 }
 
-div > p {
-	font-size: 20px;
-	margin-top: 50px;
-}
+	 nav li {
+		 margin-right: 20px;
+	 }
 
-/* Styling for the header */
+	 nav a {
+		 display: block;
+		 color: #fff;
+		 text-decoration: none;
+		 padding: 10px;
+		 transition: background-color 0.3s;
+			 border-radius: 10px; /
 
-header {
-	padding: 20px;
-}
+	 }
 
-header h1 {
-	font-size: 36px;
-	margin-top: 0;
-}
+	 nav a:hover {
+		 background-color: #333;
+		 
+	 }
 
-/* Styling for the footer */
+	 .logo {
+		 font-size: 24px;
+		 font-weight: bold;
+		 color: #fff;
+		 text-decoration: none;
+		 margin-right: auto;
+	 }
 
-footer {
-	padding: 20px;
-	text-align: center;
-}
-
-footer p {
-	margin: 0;
-	font-size: 14px;
-}
-
-/* Styling for the main content */
-
-main {
-	padding: 20px;
-}
-
-main h2 {
-	font-size: 24px;
-	margin-top: 0;
-}
-
-main p {
-	font-size: 18px;
-	margin-top: 10px;
-}
-
-		/* Style for the navigation bar */
-		nav {
-			background-color: #202020;
-			height: 80px;
-			display: flex;
-			align-items: center;
-			padding: 0 20px;
-			position: fixed;
-			top: 0;
-			left: 0;
-			right: 0;
-			z-index: 1;
-		}
-
-		nav ul {
-			list-style: none;
-			display: flex;
-			margin: 0;
-			padding: 0;
-		}
-
-		nav li {
-			margin-right: 20px;
-		}
-
-		nav a {
-			display: block;
-			color: #fff;
-			text-decoration: none;
-			padding: 10px;
-			transition: background-color 0.3s;
-			    border-radius: 10px; /
-
-		}
-
-		nav a:hover {
-			background-color: #333;
-            
-		}
-
-		.logo {
-			font-size: 24px;
-			font-weight: bold;
-			color: #fff;
-			text-decoration: none;
-			margin-right: auto;
-		}
 	</style>
 <head>
 	<style>
@@ -186,18 +121,19 @@ main p {
 <body>
 	<!-- Navigation bar -->
 	<nav>
-		<a href="index.html" class="logo">Andy's Travel Blog</a>
+		<a href="index.html" class="logo">Andy's Website</a>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="photos.html">Photography</a></li>
+			<li><a href="videos.html">Youtube</a></li>
 		</ul>
 	</nav>
 
 	<div class="container">
 		<br><br><br><br><br>
 		<img src="https://wallpapercave.com/wp/wp4854989.jpg" width="500" height="300" alt="Your Image">
-		<div class="header"><h1><br><br>Welcome to my Travel Blog 2023</h1></div>
+		<div class="header"><h1><br><br>Welcome to my Website 1.0</h1></div>
 	</div>
 </body>
 <div>   
@@ -210,7 +146,7 @@ main p {
 </div>
 
 <div>
-	<h2 id="title"> Top Countries for Summer Holiday </h2>
+	<h2 id="title"> Images that are nice! </h2>
 	<div>
 		<div>
 			<a id="paris-image" href="https://en.wikipedia.org/wiki/Paris">
@@ -251,7 +187,7 @@ main p {
 <br>
 <body>
 	<header>
-		<h1>Interesting Facts</h1>
+		<h1>Interesting Facts That You May Not Care</h1>
 	</header>
 	<main>
 		<section>
@@ -280,35 +216,10 @@ main p {
 </body>
 
 <body>
-	<br>
-	<footer>
-		<div class="social-media">
-			<h3>Follow us on social media:</h3>
-			<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" width="60" height="60" alt="Instagram"></a>
-			<a href="#"><img src="https://seeklogo.com/images/T/threads-logo-E9BA734BF6-seeklogo.com.png" alt="Threads" width="60" height="60"></a>
-			<a href="#"><img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" alt="Facebook" width="60" height="60"></a>
-		</div>
-		
-		<div class="quick-links">
-			<h3>Quick Links:</h3>
-			<a href="#">FAQ</a>
-			<a href="contact.html">Contact Us</a>
-			<a href="terms.html">Terms of Service</a>
-			<a href="priacy.html">Privacy Policy</a>
-		</div>
 	
-		<div class="subscribe">
-			<h3>Subscribe to our newsletter:</h3>
-			<form>
-				<input type="text" placeholder="Name">
-				<input type="email" placeholder="Email">
-				<button type="submit">Subscribe</button>
-			</form>
-		</div>
-	</footer>
 	<!-- Bottom banner -->
 	<div class="bottom-banner">
-		<p>&copy; 2023 Andy's Blog. All rights reserved.</p>
+		<p>&copy; 2023 Andy's Website. All rights reserved.</p>
 	</div>
 </body>
 </html>
