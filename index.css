@@ -10,9 +10,11 @@ h1{
 		 font-family: 'Courier New', Courier, monospace
  	}
  	img{
+		 align-items: center;
 		 width:500px;
 		 height:300px;
 		 border-radius: 10px;
+
  	}
  	body {
 		 color: White;
