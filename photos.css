@@ -194,7 +194,6 @@ body {
   
   /* Style the hero section with a large background image and centered text */
   .hero {
-    background-image: url('img/hero.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
