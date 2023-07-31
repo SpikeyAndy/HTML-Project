@@ -6,7 +6,8 @@ h1{
  	h2{
 		 color:rgb(43, 43, 43);
 		 font-family: Arial;
-		 font-family: 'Courier New', Courier, monospace
+		 font-family: 'Courier New', Courier, monospace;
+     text-align: center;
  	}
  	img{
 		 width:500px;
